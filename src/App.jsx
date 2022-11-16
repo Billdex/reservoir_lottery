@@ -61,12 +61,6 @@ function App() {
                                 }
                             })
                         }}
-                        onCancel={() => setLotteryData(prev => {
-                            return {
-                                ...prev,
-                                ready: true
-                            }
-                        })}
                     />
                 }
             </div>

@@ -40,13 +40,6 @@ export default function Checkin(props) {
                 >
                     开始抽奖
                 </button>
-                {(props.nameList > 0) &&
-                    <button
-                        className={"block px-3 py-2 rounded-md bg-orange-300 text-white"}
-                        onClick={props.onCancel()}
-                    >取消
-                    </button>
-                }
             </div>
         </div>
     )
